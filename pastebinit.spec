@@ -1,6 +1,6 @@
 Name:           pastebinit
-Version:        1.4.1
-Release:        %mkrel 4
+Version:        1.5
+Release:        1
 Summary:        Send anything you want directly to a pastebin from the command line
 
 Group:          System/Networking
