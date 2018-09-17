@@ -1,0 +1,24 @@
+Index: pastebinit-1.4.1/pastebinit
+===================================================================
+--- pastebinit-1.4.1/pastebinit
++++ pastebinit-1.4.1/pastebinit	2014-03-26 21:43:28.982145858 +0100
+@@ -35,19 +35,6 @@
+ # Set the default pastebin
+ defaultPB = "http://pastebin.com"
+ 
+-# Now try to override it with a distributor pastebin
+-try:
+-    import lsb_release
+-    release = lsb_release.get_distro_information()['ID'].lower()
+-    if release == 'debian':
+-        defaultPB = "http://paste.debian.net"
+-    elif release == 'fedora':
+-        defaultPB = "http://fpaste.org"
+-    elif release == 'ubuntu':
+-        defaultPB = "http://paste.ubuntu.com"
+-except ImportError:
+-    pass
+-
+ try:
+     import getopt
+     import gettext
