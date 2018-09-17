@@ -13,7 +13,7 @@ Source0:        http://launchpad.net/%{name}/trunk/%{version}/+download/%{name}-
 # upstream by using per default fpaste.org.
 # this patch musn't be push to the upstream
 #
-Patch0:         pastebinit-1.4.1-mga-delete-dependancy-to-lsb_release.patch
+#Patch0:         pastebinit-1.4.1-mga-delete-dependancy-to-lsb_release.patch
 BuildArch:      noarch
 BuildRequires:  docbook-style-xsl 
 BuildRequires:  xsltproc 
@@ -29,7 +29,7 @@ or simply the result of a command directly to the pastebin you want
 
 %prep
 %setup -q
-%autopatch -p1
+#autopatch -p1
 # Change the location of pastebin config file from /etc/pastebin.d/
 # to /usr/share/pastebinit/ (unappropriate dir. name "pastebinit.d"
 # + FHS)
