@@ -1,6 +1,6 @@
 Name:           pastebinit
 Version:        1.5.1
-Release:        2
+Release:        3
 Summary:        Send anything you want directly to a pastebin from the command line
 
 Group:          System/Networking
