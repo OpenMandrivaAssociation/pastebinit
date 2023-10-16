@@ -1,12 +1,13 @@
 Name:           pastebinit
-Version:        1.5.1
-Release:        3
+Version:        1.6.2
+Release:        1
 Summary:        Send anything you want directly to a pastebin from the command line
 
 Group:          System/Networking
 License:        GPLv2+
 URL:            https://launchpad.net/pastebinit
-Source0:        https://github.com/felixonmars/pastebinit/archive/refs/tags/%{version}/%{name}-%{version}.tar.gz
+#Source0:        https://github.com/felixonmars/pastebinit/archive/refs/tags/%{version}/%{name}-%{version}.tar.gz
+Source0:        https://github.com/pastebinit/pastebinit/archive/refs/tags/%{version}/%{name}-%{version}.tar.gz
 
 #
 # supress useless dependancy to lsb_release, folow the comportement of
