@@ -1,3 +1,4 @@
+%define _empty_manifest_terminate_build 0
 Name:           pastebinit
 Version:        1.7.0
 Release:        1
