@@ -1,5 +1,5 @@
 Name:           pastebinit
-Version:        1.6.2
+Version:        1.7.0
 Release:        1
 Summary:        Send anything you want directly to a pastebin from the command line
 
