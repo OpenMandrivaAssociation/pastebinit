@@ -36,7 +36,7 @@ or simply the result of a command directly to the pastebin you want
 # + FHS)
 # See https://bugs.launchpad.net/pastebinit/+bug/621923
 #
-sed -i "s|pastebin.d|%{name}|g" %{name} README
+#sed -i "s|pastebin.d|%{name}|g" %{name} README
 
 %build
 # Generate the man page from docbook xml
