@@ -69,4 +69,4 @@ popd
 %{_mandir}/man1/%{name}.1.*
 %{_datadir}/%{name}/
 %dir %{_sysconfdir}/%{name}/
-%doc README COPYING
+%doc COPYING
