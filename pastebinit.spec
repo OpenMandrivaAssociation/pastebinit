@@ -1,6 +1,6 @@
 %define _empty_manifest_terminate_build 0
 Name:           pastebinit
-Version:        1.7.0
+Version:        1.7.1
 Release:        1
 Summary:        Send anything you want directly to a pastebin from the command line
 
