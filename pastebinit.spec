@@ -17,6 +17,7 @@ Source0:        https://github.com/pastebinit/pastebinit/archive/refs/tags/%{ver
 #
 #Patch0:         pastebinit-1.4.1-mga-delete-dependancy-to-lsb_release.patch
 BuildArch:      noarch
+BuildRequires:	make
 BuildRequires:  docbook-style-xsl 
 BuildRequires:  xsltproc 
 BuildRequires:  gettext
